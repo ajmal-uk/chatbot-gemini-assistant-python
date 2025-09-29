@@ -1,71 +1,100 @@
 # ⚡ Spark — Gemini ChatBot in Python
 
-![Spark ChatBot Screenshot](https://ik.imagekit.io/uthakkan/Github/gemini-chatbot-python.png)
+<p align="center">
+  <img src="https://ik.imagekit.io/uthakkan/Github/gemini-chatbot-python.png" alt="Spark ChatBot Screenshot" width="400"/>
+</p>
 
-> “Meet **Spark** — your witty, helpful, and slightly humorous AI assistant powered by Google's Gemini 1.5 Flash model. Built for fun, tech help, and meaningful conversations — right from your terminal.”
-
----
-
-## 🚀 Features
-
-- 🤖 Powered by **Gemini 1.5 Flash** via Google AI Studio
-- 💬 **Context-aware chat** with memory
-- 😄 Personality: **Witty, Helpful, Slightly Humorous**
-- 🔐 API key secured via `.env` file
-- 🧩 Minimal dependencies (pure Python)
-- ⚠️ Graceful error handling
-- 📦 Easy to extend into GUI, voice, or web
+> **Spark** — your witty, helpful, and slightly humorous AI assistant powered by **Google Gemini 1.5 Flash**. Chat from your terminal with a personality that’s smart, fun, and context-aware.
 
 ---
 
-## 📸 Screenshot
+## 🧠 Features
 
-> Here's Spark chatting from your terminal!
-
-![Screenshot of Spark in action](https://ik.imagekit.io/uthakkan/Github/gemini-chatbot-python.png)
+* 🤖 **Powered by Gemini 1.5 Flash** via Google AI Studio
+* 💬 **Context-aware chat** with memory
+* 😄 Personality: **Witty, Helpful, Slightly Humorous**
+* 🔐 Secure: API key managed via `.env`
+* 🧩 Minimal dependencies — pure Python
+* ⚠️ Graceful error handling
+* 📦 Easily extendable to GUI, voice, or web apps
 
 ---
 
-## 🛠️ Getting Started
+## 📸 Preview
 
-### 1. Clone this repository
+<p align="center">
+  <img src="https://ik.imagekit.io/uthakkan/Github/gemini-chatbot-python.png" alt="Spark ChatBot Terminal" width="500"/>
+</p>
+
+> Spark chatting in your terminal!
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/gemini-chatbot.git
 cd gemini-chatbot
 ```
 
-### 2. Install dependencies
+### 2️⃣ Install Dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
-✅ No extra setup — all dependencies are minimal.
 
-### 3. Get your Gemini API key
-🔑 Visit:
-👉 https://aistudio.google.com/u/1/apikey
+✅ Minimal setup required.
 
-Copy the key and add it to a .env file in the project root:
+### 3️⃣ Configure API Key
+
+1. Visit [Google AI Studio API](https://aistudio.google.com/u/1/apikey)
+2. Copy your **Gemini API key**.
+3. Create a `.env` file in the project root:
+
 ```bash
 GEMINI_API_KEY=your_api_key_here
 ```
 
-### 4. Run the chatbot
+### 4️⃣ Run Spark
+
 ```bash
 python gemini_chatbot.py
 ```
-You're now chatting with Spark! 🎉
 
+🎉 Start chatting with Spark right from your terminal!
 
-### 💡 Personality Prompt
+---
+
+## 💡 Personality Prompt
+
+You can customize Spark's behavior inside `gemini_chatbot.py`:
+
 ```text
 You are Spark, a witty, helpful, and slightly humorous AI assistant.
 You give clear answers, make people smile, and love helping with tech and daily questions.
 When asked something silly, give a fun reply. When asked something serious, be sharp and respectful.
 Never say you're an AI model—just act like Spark, the assistant.
 ```
-Modify this easily inside gemini_chatbot.py.
 
-#### 📖 Official Docs → https://ai.google.dev/api?lang=python
+---
 
+## 🛠 Tech Stack
+
+* **Python 3** – Core language
+* **Google Gemini 1.5 Flash** – AI prompt & chat engine
+* **dotenv** – Secure API key management
+* **Terminal-based UI** – Lightweight, minimal dependencies
+
+---
+
+## 📞 Contact
+
+<p align="center">
+  <a href="https://zymail.pythonanywhere.com">🌐 Website</a> • 
+  <a href="mailto:contact.uthakkan@gmail.com">📧 Email</a> • 
+  <a href="https://twitter.com/ZyMailApp">🐦 Twitter</a> • 
+  <a href="https://github.com/ajmal-uk">🐙 GitHub</a>
+</p>
 
